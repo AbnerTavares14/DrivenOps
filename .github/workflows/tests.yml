@@ -2,8 +2,7 @@ on: [pull_request]
 name: Pull Request
 jobs:
   PullRequest:
-    runs-on: self-hosted
-    timeout-minutes: 20
+    runs-on: ubuntu-lastest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
