@@ -4,7 +4,7 @@ services:
     container_name: db_test
     restart: always
     ports:
-      - 1234:5432
+      - 4437:5432
     env_file:
       - back-end/.env.test
     volumes:
