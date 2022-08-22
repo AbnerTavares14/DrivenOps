@@ -35,7 +35,7 @@ services:
       - build_react:/var/www/html
     depends_on:
       - db_test
-      - node_app_test
+      - node_app
       - react_app
 
 volumes:
